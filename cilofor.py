@@ -3,7 +3,7 @@ cont = 0
 cont1 = 0
 gastos = 0     
 for ini in range(n):
-    sueldo = float(input("ingresar el valor sueldo de {ini}empleado" ini))
+    sueldo = float(input("ingresar el valor sueldo de{ini}empleado", ini))
     gasto = gasto+sueldo
 if sueldo >=1300000 and sueldo <=3000000:
     cont +=1
