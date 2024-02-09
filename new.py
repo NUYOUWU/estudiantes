@@ -20,4 +20,3 @@ def sumar(enteros):
         acum=acum+x
         print("la suma de numeros es:", acum)
     ingresar()
-    
