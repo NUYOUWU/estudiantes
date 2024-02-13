@@ -1,4 +1,4 @@
-nombre []
+nombre= []
 dia =0
 dias=['lunes','martes','miercoles','jueves','viernes','sabado','domingo']
 kms=[]
@@ -17,4 +17,4 @@ for x in range(nomcond):
 toal1.append(totalkms)
 totalkms+=kms
 for nombre,totalkms in zip(nombre,totalkms):
-    rpint(f"{nombre}:{totalkms}kilometros")
+    print(f"{nombre}:{totalkms}kilometros")
